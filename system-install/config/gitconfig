@@ -1,0 +1,9 @@
+[user]
+	name = your_username
+	email = your_email_address
+[init]
+	defaultBranch = main
+[core]
+	editor = geany
+[pull]
+	rebase = false
