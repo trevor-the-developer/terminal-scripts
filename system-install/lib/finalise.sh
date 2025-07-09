@@ -1,11 +1,11 @@
 #!/bin/bash
 
-# System Finalization Library
+# System Finalisation Library
 # Handles final system setup and cleanup
 
-# Finalize system setup
-finalize_setup() {
-    log_step "Finalizing system setup..."
+# Finalise system setup
+finalise_setup() {
+    log_step "Finalising system setup..."
     
     # Update mirror list
     update_mirrors
@@ -23,7 +23,7 @@ finalize_setup() {
     # Clean package cache
     clean_package_cache
     
-    log_success "System setup finalized"
+    log_success "System setup finalised"
 }
 
 # Display system information
@@ -73,7 +73,7 @@ generate_report() {
         echo "## Next Steps"
         echo "1. Reboot the system"
         echo "2. Test all functionality"
-        echo "3. Customize themes and settings"
+        echo "3. Customise themes and settings"
         echo "4. Install additional software as needed"
     } > "$report_file"
     

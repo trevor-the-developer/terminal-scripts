@@ -20,8 +20,8 @@ system-install/
     ├── config.sh               # Configuration management
     ├── packages.sh             # Package installation
     ├── services.sh             # Service management
-    ├── fixes.sh                # System fixes and optimizations
-    └── finalize.sh             # Finalization and cleanup
+    ├── fixes.sh                # System fixes and optimisations
+    └── finalise.sh             # Finalisation and cleanup
 ```
 
 ## 🚀 Quick Start
@@ -97,12 +97,12 @@ Openbox autostart configuration with:
 
 ### `lib/fixes.sh`
 - Archcraft-specific fixes
-- System optimizations
+- System optimisations
 - Firewall configuration
 - Openbox setup
 
-### `lib/finalize.sh`
-- System finalization
+### `lib/finalise.sh`
+- System finalisation
 - Report generation
 - Cleanup procedures
 
@@ -110,7 +110,7 @@ Openbox autostart configuration with:
 
 ### Install specific package groups
 ```bash
-# Edit config/packages.conf to customize package selection
+# Edit config/packages.conf to customise package selection
 ./install_system.sh
 ```
 
@@ -132,8 +132,8 @@ service_status_report
 - **Modular Architecture**: Separate concerns into focused libraries
 - **Comprehensive Logging**: Colored output and progress tracking
 - **Error Handling**: Robust error checking and recovery
-- **Configuration Management**: Centralized configuration files
-- **System Optimization**: Performance tweaks and fixes
+- **Configuration Management**: Centralised configuration files
+- **System Optimisation**: Performance tweaks and fixes
 - **Automated Reporting**: Installation reports and system info
 - **Archcraft Integration**: Specific fixes for Archcraft issues
 
@@ -144,14 +144,14 @@ service_status_report
 3. **Package Installation**: Install packages by category with progress
 4. **Service Configuration**: Enable and start system services
 5. **User Configuration**: Apply user-specific settings
-6. **System Fixes**: Apply Archcraft-specific fixes and optimizations
-7. **Finalization**: Update system components and cleanup
+6. **System Fixes**: Apply Archcraft-specific fixes and optimisations
+7. **Finalisation**: Update system components and cleanup
 8. **Reporting**: Generate installation report and display summary
 
 ## 🎯 Key Benefits
 
 - **Maintainability**: Modular design makes updates easy
-- **Customization**: Easy to modify configurations without touching code
+- **Customisation**: Easy to modify configurations without touching code
 - **Reliability**: Comprehensive error handling and validation
 - **Documentation**: Self-documenting code with clear structure
 - **Reusability**: Library functions can be used independently

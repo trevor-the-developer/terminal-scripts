@@ -22,7 +22,7 @@
 - archcraft-about, archcraft-help, archcraft-scripts, archcraft-funscripts
 - archcraft-sddm-theme, archcraft-plymouth-theme, archcraft-grub-theme
 
-**Themes & Customization:**
+**Themes & Customisation:**
 - **GTK Themes:** adapta, arc, blade, catppuccin, cyberpunk, dracula, everforest, fluent, gruvbox, hack, kanagawa, material, nordic, orchis, sweet, tokyonight, windows
 - **Icon Themes:** arc, beautyline, breeze, candy, colloid, fluent, nordic, numix, papirus, qogir, tela, vimix, win11, zafiro
 - **Cursor Themes:** bibata, breezex, colloid, fluent, future, layan, material, nordic, qogir, sweet, vimix, windows
@@ -100,7 +100,7 @@
 - **Security:** apparmor.service, ufw.service
 - **Hardware:** bluetooth.service, ModemManager.service
 - **Printing:** cups.service
-- **Containerization:** docker.service
+- **Containerisation:** docker.service
 - **Power:** tlp.service
 - **System:** systemd-timesyncd.service, getty@.service
 - **Cloud:** cloud-init services (for VM compatibility)
@@ -121,8 +121,8 @@
 - **Desktop:** BSPWM/Openbox window managers with extensive theming
 - **Security:** AppArmor, UFW firewall, Polkit authentication
 - **Development:** Full .NET and Node.js development environment
-- **Virtualization:** Docker with NVIDIA container support
-- **Power Management:** TLP for laptop power optimization
+- **Virtualisation:** Docker with NVIDIA container support
+- **Power Management:** TLP for laptop power optimisation
 - **Boot:** Plymouth splash screen with custom theme
 
 ## Recent Issues Resolved (2025-07-08)
@@ -187,9 +187,9 @@ killall ksuperkey
 - **Super+Space:** Application menu (rofi-launcher)
 - **Alt+F1:** Alternative menu access
 - **Ctrl+Alt+L:** Lock screen (betterlockscreen)
-- **Super+Arrow Keys:** Window management (snap, maximize, center)
+- **Super+Arrow Keys:** Window management (snap, maximise, center)
   - Super+Left/Right: Snap to screen halves
-  - Super+Up: Maximize window
+  - Super+Up: Maximise window
   - Super+Down: Center window (60% width, 80% height)
 
 ## System Configuration Snapshot
@@ -259,7 +259,7 @@ This section documents the complete system configuration for replication purpose
 
 ### **Custom Scripts and Automation**
 - **Redshift:** Custom red light filter script
-- **Openbox Autostart:** Customized startup sequence
+- **Openbox Autostart:** Customised startup sequence
 - **Theme Switching:** Automated theme management
 - **Bar Management:** Polybar/Tint2 switching system
 
@@ -284,13 +284,13 @@ system-install/
     ├── config.sh               # Configuration management
     ├── packages.sh             # Package installation
     ├── services.sh             # Service management
-    ├── fixes.sh                # System fixes and optimizations
-    └── finalize.sh             # Finalization and cleanup
+    ├── fixes.sh                # System fixes and optimisations
+    └── finalise.sh             # Finalisation and cleanup
 ```
 
 ### **Installation Suite Features**
 - **Modular Architecture:** Separate libraries for different functions
-- **Configuration Management:** Centralized config files for easy customization
+- **Configuration Management:** Centralised config files for easy customisation
 - **Comprehensive Logging:** Colored output and progress tracking
 - **Error Handling:** Robust error checking and recovery
 - **Automated Reporting:** Installation reports and system information
@@ -304,7 +304,7 @@ cd ~/Support/system-install
 
 ### **Key Components**
 - **Orchestrator Script:** `install_system.sh` - Main coordination script
-- **Package Configuration:** `config/packages.conf` - Organized package groups
+- **Package Configuration:** `config/packages.conf` - Organised package groups
 - **Service Configuration:** `config/services.conf` - System service definitions
 - **User Configurations:** Template files for shell, git, and desktop setup
 - **Function Libraries:** Modular bash libraries for specific tasks
@@ -315,6 +315,6 @@ cd ~/Support/system-install
 3. **Package Installation:** Install packages by category with progress
 4. **Service Configuration:** Enable and start system services
 5. **User Configuration:** Apply user-specific settings
-6. **System Fixes:** Apply Archcraft-specific fixes and optimizations
-7. **Finalization:** Update system components and cleanup
+6. **System Fixes:** Apply Archcraft-specific fixes and optimisations
+7. **Finalisation:** Update system components and cleanup
 8. **Reporting:** Generate installation report and display summary

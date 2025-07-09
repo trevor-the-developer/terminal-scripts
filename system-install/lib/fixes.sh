@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # System Fixes and Configuration Library
-# Handles Archcraft-specific fixes and optimizations
+# Handles Archcraft-specific fixes and optimisations
 
 # Fix common Archcraft issues
 fix_archcraft_issues() {
@@ -23,10 +23,10 @@ fix_archcraft_issues() {
     gtk-update-icon-cache -f ~/.icons/ 2>/dev/null || true
     log_success "Icon caches updated"
     
-    # Initialize jgmenu
-    log_info "Initializing jgmenu..."
+    # Initialise jgmenu
+    log_info "Initialising jgmenu..."
     jgmenu_run init --icon-size=22 >/dev/null 2>&1 || true
-    log_success "jgmenu initialized"
+    log_success "jgmenu initialised"
     
     # Remove ksuperkey to prevent conflicts
     log_info "Removing ksuperkey to prevent Super key conflicts..."
@@ -69,9 +69,9 @@ configure_openbox() {
     fi
 }
 
-# Optimize system performance
-optimize_system() {
-    log_step "Optimizing system performance..."
+# Optimise system performance
+optimise_system() {
+    log_step "Optimising system performance..."
     
     # Configure swappiness
     log_info "Configuring swappiness..."
@@ -86,7 +86,7 @@ optimize_system() {
     sudo mkdir -p /etc/systemd/journald.conf.d
     echo -e "[Journal]\nSystemMaxUse=500M\nSystemMaxFiles=5" | sudo tee /etc/systemd/journald.conf.d/00-journal-size.conf
     
-    log_success "System optimization completed"
+    log_success "System optimisation completed"
 }
 
 # Configure firewall

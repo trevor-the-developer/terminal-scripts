@@ -16,7 +16,7 @@ source "$LIB_DIR/config.sh"
 source "$LIB_DIR/packages.sh"
 source "$LIB_DIR/services.sh"
 source "$LIB_DIR/fixes.sh"
-source "$LIB_DIR/finalize.sh"
+source "$LIB_DIR/finalise.sh"
 
 # Pre-installation checks
 pre_install_checks() {
@@ -82,11 +82,11 @@ main() {
     # Step 4: Apply System Fixes
     fix_archcraft_issues
     configure_openbox
-    optimize_system
+    optimise_system
     configure_firewall
     
-    # Step 5: Finalization
-    finalize_setup
+    # Step 5: Finalisation
+    finalise_setup
     
     # Step 6: Generate Report and Cleanup
     generate_report
